@@ -1,0 +1,54 @@
+# ============================================================
+# 微信小程序（JS 标准模板 · 不使用云开发）· 团队协作版
+# 项目：珞珈智游    AppID：wx5e97bba488bd8c72
+# ============================================================
+
+# ---------- 依赖安装产物 ----------
+node_modules/
+
+# 开发者工具「构建 npm」生成，每台机器本地构建即可
+miniprogram_npm/
+
+# ---------- 开发者工具的个人配置 ----------
+# 含本机编译设置、个人路径、基础库版本覆盖等，每人都不同，冲突高发区
+project.private.config.json
+
+# ---------- 构建 / 打包产物 ----------
+dist/
+build/
+*.zip
+
+# ---------- 密钥与本地环境（安全红线，永不入库）----------
+*.key
+private.*.key
+.env
+.env.*
+!.env.example
+config/local.js
+config/local.*.js
+
+# ---------- 编辑器 / 操作系统 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
+
+# ---------- 日志 / 临时文件 / 缓存 ----------
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+coverage/
+.cache/
+*.tmp
+
+# ============================================================
+# 以下文件【必须提交】，不要加入忽略：
+#   project.config.json        团队公共配置（appid、libVersion、编译设置）
+#   package.json / package-lock.json   依赖与锁版本
+#   app.json / app.js / app.wxss / sitemap.json
+#   pages/**、components/**、utils/** 等全部源码
+# ============================================================
